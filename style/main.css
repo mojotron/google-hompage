@@ -1,0 +1,134 @@
+body {
+	background-color: #fff;
+	color: #222;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+a {
+	display: inline-block;
+	color: #222;
+	text-decoration: none;
+	font-size: 13px;
+	text-align: center;
+}
+
+#apps {
+	width: 30px;
+	height: 30px;
+	background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+	background-position: -132px -31px;
+	background-size: 528px 68px;
+	margin-bottom: 4px;
+}
+
+#notification {
+	width: 20px;
+	height: 20px;
+	background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+	background-position: -194px -21px;
+	background-size: 528px 68px;
+	background-color: rgba(0, 0, 0, 0.85);
+	color: rgb(23, 255, 255);
+	border-radius: 50%;
+	margin-bottom: 4px;
+}
+
+#account {
+	width: 32px;
+	height: 32px;
+	background-image: url("https://lh3.googleusercontent.com/-OO0u2FwXySs/AAAAAAAAAAI/AAAAAAAAAAA/AGi4gfwRVqK02Wqwex_usL-iGc-hPMcHMQ/s32-c-mo/photo.jpg");
+	background-size: 32px 32px;
+	border-radius: 50%;
+	margin-top: 5px;
+}
+
+#gmail {
+	position: relative;
+	bottom: 8px; 
+}
+
+#images {
+	position: relative;
+	bottom: 8px; 
+}
+
+/*navigation*/
+.top-nav-bar, .bot-right-nav, .bot-left-nav {
+	position: absolute;
+}
+
+.top-nav {
+	text-align: right;
+	top: 0;
+	right: 0;
+	margin: 10px 27px 0 0;
+}
+
+.top-nav a {
+	margin-left: 18px;
+}
+
+/*heading*/
+.heading {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100px;
+}
+
+.bot-right-nav {
+ 	text-align: right;
+ 	bottom:0;
+ 	right: 0;
+ 	margin: 0 27px 13px 0;
+}
+
+.bot-right-nav a {
+	padding-left: 27px;
+}
+
+.bot-left-nav {
+	text-align: left;
+	bottom: 0;
+	left: 0;
+	margin: 0 0 13px 27px;
+}
+
+.bot-left-nav a {
+	padding-right: 27px;
+}
+
+
+/*footer*/
+.footer {
+	position: fixed;
+	bottom: 0;
+	background-color: #F2F2F2;
+	border: 1px solid #E4E4E4;
+	width: 100%;
+	height: 41px;
+}
+
+/*container*/
+.container {
+	width: 100%;
+	position: absolute;
+	top: 200px;
+}
+
+/*image*/
+img {
+	dispaly: block;
+	width: 300px;
+	margin: 0 auto;
+}
+
+/*form*/
+form {
+	width: 1139px;
+	height: 139px;
+	margin: 0 auto;
+	text-align: center;
+}
