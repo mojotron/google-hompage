@@ -29,7 +29,7 @@ a {
 	background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
 	background-position: -194px -21px;
 	background-size: 528px 68px;
-	background-color: rgba(0, 0, 0, 0.85);
+	background-color: #737373;
 	color: rgb(23, 255, 255);
 	border-radius: 50%;
 	margin-bottom: 4px;
@@ -44,15 +44,24 @@ a {
 	margin-top: 5px;
 }
 
-#gmail {
+#apps:hover {
+	margin-bottom: 3px;
+}
+
+#notification:hover {
+	background-color: #111;
+}
+
+#gmail ,#images{
 	position: relative;
 	bottom: 8px; 
 }
 
-#images {
-	position: relative;
-	bottom: 8px; 
+#gmail:hover ,#images:hover {
+	text-decoration: underline;
+	color: #111; 
 }
+
 
 /*navigation*/
 .top-nav-bar, .bot-right-nav, .bot-left-nav {
@@ -111,6 +120,10 @@ a {
 	height: 41px;
 }
 
+.footer a:hover {
+	text-decoration: underline;
+}
+
 /*container*/
 .container {
 	width: 100%;
@@ -119,11 +132,7 @@ a {
 }
 
 /*image*/
-img {
-	dispaly: block;
-	width: 300px;
-	margin: 0 auto;
-}
+
 
 /*form*/
 form {
@@ -131,4 +140,38 @@ form {
 	height: 139px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+#search-bar {
+	width: 559px;
+	height: 34px;
+	border: 1px solid #ddd;
+}
+
+#search-bar:hover {
+	box-shadow: 2px 2px 2px #bbb; 
+}
+
+#search-btn ,#lucky-btn {
+	font-weight: bold;
+	height: 34px;
+	text-aligh: center;
+	padding: 0 16px;
+	font-size: 13px;
+	color: #807575;
+	background-color: #F2F2F2;
+	margin: 11px 0;
+	border: 1px solid #F2F2F2;
+}
+
+#search-btn {
+	width: 126px;
+}
+
+#lucky-btn {
+	width: 144px;
+}
+
+#search-btn:hover ,#lucky-btn:hover {
+	border: 1px solid #999;
 }
