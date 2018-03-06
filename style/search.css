@@ -2,7 +2,7 @@ body {
 	background-color: #fff;
 	color: #222;
 	font-family: Arial, sans-serif;
-	text-align: center;
+	text-align: left;
 	box-sizing: border-box;
 }
 
@@ -52,14 +52,21 @@ a {
 	background-color: #111;
 }
 
-#gmail ,#images{
-	position: relative;
-	bottom: 8px; 
+#top-logo {
+	display: inline-block;
+	float: left;
 }
 
-#gmail:hover ,#images:hover {
-	text-decoration: underline;
-	color: #111; 
+#search-bar {
+	float: left;
+	dispaly: inline-block;
+	width: 632px;
+	height: 46px;
+	border: 1px solid #ddd;
+}
+
+#search-bar:hover {
+	box-shadow: 2px 2px 2px #bbb; 
 }
 
 
@@ -87,16 +94,6 @@ a {
 	height: 100px;
 }
 
-.bot-right-nav {
- 	text-align: right;
- 	bottom:0;
- 	right: 0;
- 	margin: 0 27px 13px 0;
-}
-
-.bot-right-nav a {
-	padding-left: 27px;
-}
 
 .bot-left-nav {
 	text-align: left;
@@ -124,6 +121,13 @@ a {
 	text-decoration: underline;
 }
 
+/*option nav bar*/
+
+.option-nav {
+	position: absolute;
+	top: 100px;
+}
+
 /*container*/
 .container {
 	width: 100%;
@@ -131,44 +135,44 @@ a {
 	top: 200px;
 }
 
-/*form*/
-form {
-	width: 1139px;
-	height: 139px;
-	margin: 0 auto;
-	text-align: center;
+/*result*/
+
+.result {
+	width: 600px;
+
 }
 
-#search-bar {
-	width: 559px;
-	height: 34px;
-	border: 1px solid #ddd;
+.result a {
+	color: #1a0dab;
+	font-size: 18px;
+	line-height: 1.2em;
 }
 
-#search-bar:hover {
-	box-shadow: 2px 2px 2px #bbb; 
+.result a:hover {
+	text-decoration: underline;
 }
 
-#search-btn ,#lucky-btn {
-	font-weight: bold;
-	height: 34px;
-	text-aligh: center;
-	padding: 0 16px;
+.result .link {
+	color: #006621;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.result p {
+	color: #545454;
+	line-height: 1.4;
 	font-size: 13px;
-	color: #807575;
-	background-color: #F2F2F2;
-	margin: 11px 0;
-	border: 1px solid #F2F2F2;
 }
 
-#search-btn {
-	width: 126px;
+.span-link {
+	color: #006621;
 }
 
-#lucky-btn {
-	width: 144px;
+.span-link: hover {
+	text-decoration: none;
 }
 
-#search-btn:hover ,#lucky-btn:hover {
-	border: 1px solid #999;
-}
+
+
+
+
