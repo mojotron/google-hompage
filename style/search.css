@@ -117,7 +117,7 @@ a {
 	position: relative;
 	bottom: 0;
 	left: 0;
-	margin-top: 75px;
+	margin-top: 79px;
 	background-color: #F2F2F2;
 	border: 1px solid #E4E4E4;
 	width: 100%;
@@ -212,6 +212,7 @@ a {
 	line-height: 1.2;
 	border: 1px solid #d9d9d9;
 	padding: 16px;
+	margin-bottom: 20px;
 }
 
 .result-box h2 {
@@ -241,6 +242,17 @@ a {
 
 #more-items-link:hover {
 	text-decoration: underline;
+}
+
+.result-option a {
+	position: relative;
+	top: 15px;
+	float: right;
+	padding: 4px 8px;
+	text-align: left;
+	color: rgb(119, 119, 199);
+	font-size: 12px;
+	line-height: 14px;
 }
 
 /*related search*/
