@@ -55,6 +55,7 @@ a {
 #top-logo {
 	display: inline-block;
 	float: left;
+	margin: 15px;
 }
 
 #search-bar {
@@ -63,6 +64,9 @@ a {
 	width: 632px;
 	height: 46px;
 	border: 1px solid #ddd;
+	margin-top: 15px;
+	padding: 0 0 0 10px;
+	color: #222;
 }
 
 #search-bar:hover {
@@ -111,6 +115,7 @@ a {
 .footer {
 	position: fixed;
 	bottom: 0;
+	left: 0;
 	background-color: #F2F2F2;
 	border: 1px solid #E4E4E4;
 	width: 100%;
@@ -125,20 +130,55 @@ a {
 
 .option-nav {
 	position: absolute;
-	top: 100px;
+	width: 100%;
+	top: 50px;
+	border-bottom: 1px solid #E4E4E4;
 }
+
+.option-nav a {
+	padding: 28px 16px 12px 16px;
+	color: #777;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.option-nav a:hover {
+    color: #222;
+}
+
+#all {
+	margin-left: 150px;
+	border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+    font-weight: bold;
+}
+
+#settings {
+	padding-left: 90px;
+}
+    
 
 /*container*/
 .container {
-	width: 100%;
-	position: absolute;
-	top: 200px;
+	width: 635px;
+	position: relative;
+	top: 120px;
+	left: 150px;
+	padding-bottom: 300px;
+}
+
+#search-time {
+	padding-left: 50px;
+	color: rgb(128, 128, 128);
+	font-size: 13px;
+	line-height: 43px
 }
 
 /*result*/
 
 .result {
 	width: 600px;
+	padding: 16px 0;
 
 }
 
@@ -164,15 +204,55 @@ a {
 	font-size: 13px;
 }
 
-.span-link {
-	color: #006621;
+.result-box {
+	width: 632px;
+	line-height: 1.2;
+	border: 1px solid #A6A6A6;
+	padding: 16px;
 }
 
-.span-link: hover {
+.result-box h2 {
+	font-weight: bold;
+	color: #222;
+	width: 360px;
+}
+
+.result-box img {
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: -55px;
+	left: 16px;
+}
+
+.result-box ol {
+	padding: 16px;
+}
+
+#more-items-link {
+	color: rgb(119, 119, 119);
+	font-size: 14px;
+	padding: 0 0 16px 16px;
 	text-decoration: none;
 }
 
+#more-items-link:hover {
+	text-decoration: underline;
+}
 
+/*related search*/
 
+.related-search h3 {
+	color: #222;
+	font-size: 18px;
+	line-height: 18px;
+	padding-bottom: 8px;
+}
 
-
+.related-search li a{
+	color: #1A0DAB;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	padding: 4px 0;
+}
