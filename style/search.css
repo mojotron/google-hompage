@@ -1,3 +1,4 @@
+
 body {
 	background-color: #fff;
 	color: #222;
@@ -164,7 +165,7 @@ a {
 	position: relative;
 	top: 120px;
 	left: 150px;
-	padding-bottom: 300px;
+	padding-bottom: 75px;
 }
 
 #search-time {
@@ -207,7 +208,7 @@ a {
 .result-box {
 	width: 632px;
 	line-height: 1.2;
-	border: 1px solid #A6A6A6;
+	border: 1px solid #d9d9d9;
 	padding: 16px;
 }
 
@@ -241,12 +242,15 @@ a {
 }
 
 /*related search*/
+.related-search {
+	padding-top: 20px:;
+}
 
 .related-search h3 {
 	color: #222;
 	font-size: 18px;
 	line-height: 18px;
-	padding-bottom: 8px;
+	padding: 15px 0;
 }
 
 .related-search li a{
@@ -256,3 +260,65 @@ a {
 	font-weight: bold;
 	padding: 4px 0;
 }
+
+.related-search li a:hover {
+	text-decoration: underline;
+}
+
+/*table*/
+.search-table {
+	width: 630px;
+	height: 55px;
+	margin: 0 auto;
+	padding: 20px 0 8px 150px;
+    text-align: center;
+}
+
+.search-table td a {
+	font-size: 13px;
+	color: rgb(66, 133, 244);
+}
+
+.search-table td a:hover {
+	text-decoration: underline;
+}
+
+.g-image {
+ 	width: 28px;
+ 	height: 40px;
+ 	background-image: url("https://www.google.hr/images/nav_logo242.png");
+ 	background-position: -24px 0px;
+ }
+
+ .o-red-image {
+ 	width: 20px;
+ 	height: 40px;
+ 	background-image: url("https://www.google.hr/images/nav_logo242.png");
+ 	background-position: -53px 0px;
+ }
+
+ .o-yellow-image {
+ 	width: 20px;
+ 	height: 40px;
+ 	background-image: url("https://www.google.hr/images/nav_logo242.png");
+ 	background-position: -74px 0px;
+ }
+
+ .gle-image {
+ 	width: 71px;
+ 	height: 40px;
+ 	background-image: url("https://www.google.hr/images/nav_logo242.png");
+ 	background-position: -96px 0px;
+ }
+
+#first-related {
+	color: rgba(0, 0, 0, 0.87)
+ }
+
+ #first-related:hover {
+	text-decoration: none;
+ }
+
+ td#next-related {
+ 	text-align: right;
+ }
